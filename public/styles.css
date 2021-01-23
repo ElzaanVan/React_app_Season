@@ -6,6 +6,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  font-family: Amatic sc;
 }
 
 .iconRight {
@@ -26,6 +27,10 @@
 
 .season-display.Summer i {
   color: #ffb23d;
+}
+
+h1 {
+  font-family: Codystar;
 }
 
 .Winter {
