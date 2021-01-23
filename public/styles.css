@@ -1,0 +1,41 @@
+/*Season Display*/
+
+.season-display {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconRight {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.iconLeft {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.season-display.Winter i {
+  color: #1f6f8b;
+}
+
+.season-display.Summer i {
+  color: #ffb23d;
+}
+
+.Winter {
+  background-color: #84a9ac;
+  color: #99a8b2;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+.Summer {
+  background-color: #fff76a;
+  color: #61c8df;
+  background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+}
